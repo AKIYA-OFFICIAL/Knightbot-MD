@@ -1,6 +1,8 @@
 async function aliveCommand(sock, chatId) {
     try {
-        const message = `*🤖 Knight Bot is Active!*\n\n` +
+        const message = `*🤖 AKIYA OFFICIAL🤖*\n\n` +
+                       `*AKILA SANDARUWAN*\n` +
+                       `~*BOT IS ONLINE*~\n` +
                        `*Version:* 1.0.0\n` +
                        `*Status:* Online\n` +
                        `*Mode:* Public\n\n` +
@@ -9,8 +11,16 @@ async function aliveCommand(sock, chatId) {
                        `• Antilink Protection\n` +
                        `• Fun Commands\n` +
                        `• And more!\n\n` +
-                       `Type *.menu* for full command list`;
 
+            `*FOLLOW THIS LINK*\n\n` +
+
+            ``YOUTUBE`\n\n` +
+                      `• https://www.youtube.com/@akiya_music\n\n` +
+                      `• https://www.youtube.com/@GAMINGakiya_official\n\n` +
+                      `• https://www.youtube.com/@AKIYA-topic_official\n\n` +
+        
+                       `_Type_ *.menu* _for full command list_`;
+                      
         await sock.sendMessage(chatId, {
             text: message,
             contextInfo: {
