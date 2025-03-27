@@ -14,7 +14,7 @@ async function aliveCommand(sock, chatId) {
 
             `*FOLLOW THIS LINK*\n\n` +
 
-            `YOUTUBE`\n\n` +
+         `• youtube\n\n` +
                       `• https://www.youtube.com/@akiya_music\n\n` +
                       `• https://www.youtube.com/@GAMINGakiya_official\n\n` +
                       `• https://www.youtube.com/@AKIYA-topic_official\n\n` +
